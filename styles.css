@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Arsenal+SC:regular,italic,700,700italic);
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #054B16;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arsenal SC;
+}
+h1{
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+    margin: 0;
+    padding-top: 1vh;
+    font-family: Merriweather;
+}
+#background1{
+    color: #054B16;
+    background-color: white;
+    border: white 2px solid;
+    width: 36.458vw;
+    height: 39.01vh;
+    margin-top: 6vh;
+    margin-left: 31.771vw;
+    border-radius: 25%;
+}
+h2{
+    font-size: 2.5vw;
+    text-align: center;
+}
+input{
+    width: 15vw;
+    height: 5vh;
+    border:none;
+    border-bottom: solid 3px #054B16 ;
+    margin-top: 3vh;
+    margin-left: 3.5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    width: 7vw;
+    height: 4vh;
+    margin-left: 1vw;
+    background-color: #107C10;
+    color: white;
+    border-radius: 30%;
+    font-size: 2.5vh;
+}
+#background2{
+    width: 42vw;
+    height: 13vh;
+    background-color: #107C10;
+    color: white;
+    font-size: 2vh;
+    padding-top: 0.25vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    text-align: center;
+    margin-left: 28.5vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#important{
+    font-weight: 600;
+    font-style: italic;
+}
+#left{
+    font-size: 2.5vw;
+    margin: 0;
+    color: #9BF00B;
+    margin-left: 2vw;
+    margin-top: 0.75vh;
+    font-family: Merriweather;
+}
+#right{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    right: 2vw;
+    color: #9BF00B;
+    font-family: Merriweather;
+}
+hr{
+    margin: 0;
+    border: #9BF00B 1px solid;
+}
+#result{
+    width: 36vw;
+    height: 5vh;
+    font-size: 1vw;
+    text-align: center;
+    color: #107C10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media  screen and (max-width: 1609.44px) {
+    #background2{
+        margin-bottom: 12vh;
+        height: 15vh;
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
+@media screen and (max-width: 1377.24px){
+    #background2{
+        margin-bottom: 13vh;
+        height: 17vh;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    #background1{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    #result{
+        width: 50vw;
+        text-align: center;
+        font-size: 1vw;
+    }
+    input{
+        margin-left: 10vw;
+    }
+    button{
+        width: 10vw;
+        height: 6vh;
+    }
+}
+@media screen and (max-width: 977.04px){
+    #background2{
+        margin-bottom: 16vh;
+        height: 19vh;
+        width: 75vw;
+        margin-left: 12.5vw;
+        font-size: 1.95vh;
+}
+    #background1{
+    width: 60vw;
+    margin-left: 20vw;
+}
+#result{
+    width: 60vw;
+    text-align: center;
+    font-size: 2vw;
+}
+    input{
+    margin-left: 15vw;
+}
+    button{
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.5vh ;
+    margin-left: 5vw;
+}
+}
+@media screen and (max-width: 676px){
+    #background2{
+        margin-bottom: 9vh;
+        height: 19vh;
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 1.9vh;
+        margin-top: 15vh;
+}
+#background1{
+    width: 75vw;
+    margin-left: 12.5vw;
+}
+#result{
+    width: 75vw;
+    text-align: center;
+    font-size: 3vw;
+}
+h2{
+    font-size: 4vw;
+}
+    input{
+    margin-left: 22vw;
+}
+    button{
+    width: 13vw;
+    height: 6vh;
+    font-size: 1.5vh ;
+    margin-left: 5vw;
+}
+}
